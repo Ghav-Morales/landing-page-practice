@@ -130,8 +130,47 @@ a{
     margin-top: 20px;
     padding-bottom: 50px;
     text-align: end;
-    width: min(80%, 800px);
+    width: 800px;
     text-align: end;
     font-weight: bold;
     font-size: 28px;
+}
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+}
+.call-to-action-container{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    gap: 100px;
+    color: white;
+}
+.action-box{
+    padding: 30px 20px;
+    margin: 0px;
+}
+.action-box span{
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 500;
+}
+.action-box p{
+    color: rgb(233, 233, 233);
+    margin: 2px;
+}
+.action-signup-btn{
+    background-color: #3882f6;
+    color: white;
+    border: 3px solid;
+    border-color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
 }
