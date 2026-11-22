@@ -15,7 +15,7 @@ body {
 .nav-bar {
     margin-top: 20px;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1000px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -49,10 +49,11 @@ a{
     text-decoration: none;
 }
 .hero-container{
+    max-width: 1000px;
     margin: 80px 0px;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
 }
 
 .hero-section{
@@ -60,11 +61,13 @@ a{
 }
 .img-section{
     height: 230px;
-    width: 550px;
-    background-color: rgb(180, 184, 182);
+    width: 500px;
+    background-color: #6B7280;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(255, 255, 255);
+
 }   
 .hero{
    font-size: 48px;
@@ -82,4 +85,53 @@ a{
     height: 35px;
     width: 100px;
     border-radius: 15px;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+.information-heading{
+    font-size: 36px;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+    width: 1000px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #6B7280;
+}
+.info-box{
+    border: 5px solid #3882f6;
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+}
+.quotes{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote-text{
+    margin: 120px 0px 0px 0px;
+}
+.quote-author{
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: end;
+    width: min(80%, 800px);
+    text-align: end;
+    font-weight: bold;
+    font-size: 28px;
 }
